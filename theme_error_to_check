@@ -1,0 +1,18 @@
+wads@raspberrypi:~/Documents/GitHub/pyftdi $ sphinx-build -b html pyftdi/doc .
+Running Sphinx v7.3.7
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 23 source files that are out of date
+updating environment: [new config] 23 added, 0 changed, 0 removed
+reading sources... [100%] urlscheme
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... copying static files... done
+copying extra files... done
+done
+writing output... [  4%] api/eeprom
+Theme error:
+An error happened in rendering the page api/eeprom.
+Reason: UndefinedError("'style' is undefined")

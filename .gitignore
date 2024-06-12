@@ -9,3 +9,7 @@ build/
 sphinx/
 .vscode/
 .venv/
+
+.doctrees/
+_static/
+src/
