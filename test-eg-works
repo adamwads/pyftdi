@@ -1,0 +1,13 @@
+wads@raspberrypi:~/Documents/GitHub/pyftdi/pyftdi/tests $ python ftdi.py
+..Please disconnect FTDI device
+FTDI device may be gone: UsbError: [Errno 5] Input/Output Error
+Please reconnect FTDI device
+FTDI device not initialized
+FTDI device not initialized
+FTDI device not initialized
+FTDI device detected
+.
+----------------------------------------------------------------------
+Ran 3 tests in 10.467s
+
+OK
