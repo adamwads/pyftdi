@@ -1,0 +1,20 @@
+wads@raspberrypi:~/Documents/GitHub/pyftdi $ cat ftdi-show-devices-python-eg-works.txt 
+wads@raspberrypi:~/Documents/GitHub/pyftdi $ python3
+Python 3.9.2 (default, Feb 28 2021, 17:03:44) 
+[GCC 10.2.1 20210110] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from pyftdi.ftdi import Ftdi
+>>> Ftdi.show_devices()
+Available interfaces:
+  ftdi://ftdi:4232:FT76PS1L/1  (FT4232H Hub Module)
+  ftdi://ftdi:4232:FT76PS1L/2  (FT4232H Hub Module)
+  ftdi://ftdi:4232:FT76PS1L/3  (FT4232H Hub Module)
+  ftdi://ftdi:4232:FT76PS1L/4  (FT4232H Hub Module)
+wads@raspberrypi:~/Documents/GitHub/pyftdi $ python
+Python 3.9.2 (default, Feb 28 2021, 17:03:44) 
+[GCC 10.2.1 20210110] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from pyftdi.ftdi import Ftdi
+>>> Ftdi.show_devices()
+Available interfaces:
+  ftdi://ftdi:ft-x:FT6EMK0A/1  (Chipi-X)
